@@ -1,6 +1,8 @@
 # Industrial Bus Accessibility – Melbourne (Streamlit Dashboard)
 
-This repository contains an interactive dashboard (Streamlit + Folium + Altair) analysing bus accessibility for industrial and primary production meshblocks in metropolitan Melbourne.
+This repository contains an interactive dashboard (Streamlit + Folium + Altair) analysing bus accessibility for industrial and primary production meshblocks in metropolitan Melbourne using 2021 Australian Boundary Data and Mesh Block data based on ASGS from Australia Bureau of Statistics, along with bus services, routes, schedules, and stop locations data based on PTV Victoria data gained GTFS site. The PTV data itself is based on December 2025 data because it is the most recently available and complete bus services data that we can use.
+
+This Project is an expanded version of the final assignment of Monash University Advanced Database Technology Unit (FIT5137) about PTV Bus Accessibility in Greater Melbourne, which can be focused based on the land use type¹. This Project uses updated data and Snowflake to store, process the data, analyze and generate `access_industry_catchment.geojson`,`access_industry_underserved.geojson`, `lga_access_metrics.csv`. The generated data are then used for creating a custom visualization based on streamlit and folium for greater flexibility.
 
 ## Data files required
 Place these files inside the `data/` folder:
