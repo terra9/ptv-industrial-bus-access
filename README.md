@@ -10,7 +10,7 @@ Place these files inside the `data/` folder:
 - `access_industry_underserved.geojson`
 - `lga_access_metrics.csv`
 
-## Run locally
+## How to Run locally
 
 ### For Windows User (Command Prompt recommended)
 1) Clone this repo and move into the folder:
@@ -56,3 +56,7 @@ python -m pip install -r requirements.txt
 ```bash
 python -m streamlit run app.py
 ```
+
+
+## Reference
+¹Monash University. (2025, August 26). *FIT5137 S2 2025 Assignment 3: PTV Assignment (Weight = 35%)*. Monash University. 
